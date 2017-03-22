@@ -1,5 +1,5 @@
 describe Bothan::App do
-  before :all do
+  before :each do
     create_data
 
     get '/metrics'
