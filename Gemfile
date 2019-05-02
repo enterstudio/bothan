@@ -15,7 +15,7 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'iso8601'
 gem 'exception_notification'
 gem 'compass'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '>= 3.4.0'
 gem 'pusher'
 
 group :test do
