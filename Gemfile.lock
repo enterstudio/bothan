@@ -351,7 +351,8 @@ GEM
     rack (1.6.1)
     rack-conneg (0.1.5)
       rack (>= 1.0)
-    rack-cors (0.4.0)
+    rack-cors (1.0.6)
+      rack (>= 1.6.0)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
@@ -534,7 +535,7 @@ DEPENDENCIES
   mongoid (~> 5.0)
   pusher
   rack-conneg
-  rack-cors
+  rack-cors (>= 1.0.5)
   rack-test
   rake
   rspec
@@ -545,4 +546,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.14.6
+   1.17.3
