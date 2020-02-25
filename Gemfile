@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 gem 'sinatra'
 gem 'github-pages'
 gem 'jekyll'
@@ -26,15 +26,15 @@ group :test do
   gem 'rack-test'
   gem 'guard'
   gem 'guard-rspec', require: false
-  gem 'guard-jasmine'
+  gem 'guard-jasmine', '>= 2.0.6'
   gem 'guard-cucumber'
   gem 'terminal-notifier-guard'
   gem 'coveralls', require: false
   gem 'cucumber-api-steps', require: false, github: 'theodi/cucumber-api-steps', branch: 'feature-test-content-type'
   gem 'database_cleaner'
   gem 'guard-shotgun', :git => 'https://github.com/rchampourlier/guard-shotgun.git'
-  gem 'jasmine'
+  gem 'jasmine', '>= 2.4.0'
   gem 'timecop'
-  gem 'data_kitten'
+  gem 'data_kitten', '>= 1.3.1'
   gem 'webmock'
 end
