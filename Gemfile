@@ -20,14 +20,14 @@ gem 'pusher'
 
 group :test do
   gem 'capybara-webkit'
-  gem 'cucumber', "~> 1.3"
+  gem 'cucumber', '~> 4.0', '>= 4.0.0'
   gem 'cucumber-sinatra'
   gem 'rspec'
   gem 'rack-test'
   gem 'guard'
   gem 'guard-rspec', require: false
   gem 'guard-jasmine'
-  gem 'guard-cucumber'
+  gem 'guard-cucumber', '>= 1.5.4'
   gem 'terminal-notifier-guard'
   gem 'coveralls', require: false
   gem 'cucumber-api-steps', require: false, github: 'theodi/cucumber-api-steps', branch: 'feature-test-content-type'
