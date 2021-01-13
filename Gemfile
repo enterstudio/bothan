@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'sinatra'
-gem 'github-pages'
+gem 'github-pages', '>= 78'
 gem 'jekyll'
 gem 'github-markdown'
 gem 'dotenv'
