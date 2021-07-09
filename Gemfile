@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'sinatra'
-gem 'github-pages'
+gem 'github-pages', '>= 73'
 gem 'jekyll'
 gem 'github-markdown'
 gem 'dotenv'
@@ -35,6 +35,6 @@ group :test do
   gem 'guard-shotgun', :git => 'https://github.com/rchampourlier/guard-shotgun.git'
   gem 'jasmine'
   gem 'timecop'
-  gem 'data_kitten'
-  gem 'webmock'
+  gem 'data_kitten', '>= 1.3.1'
+  gem 'webmock', '>= 1.22.6'
 end
