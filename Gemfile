@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'sinatra'
+gem 'sinatra', '>= 4.0.0'
 gem 'github-pages'
 gem 'jekyll'
 gem 'github-markdown'
