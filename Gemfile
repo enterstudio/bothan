@@ -2,39 +2,39 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'sinatra'
-gem 'github-pages'
+gem 'github-pages', '>= 74'
 gem 'jekyll'
 gem 'github-markdown'
 gem 'dotenv'
 gem 'thin'
 gem 'haml'
-gem 'foreman'
+gem 'foreman', '>= 0.86.0'
 gem 'mongoid', '~> 5.0'
 gem 'rack-conneg'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'iso8601'
-gem 'exception_notification'
+gem 'exception_notification', '>= 4.1.2'
 gem 'compass'
 gem 'bootstrap-sass'
 gem 'pusher'
 
 group :test do
-  gem 'capybara-webkit'
+  gem 'capybara-webkit', '>= 1.6.0'
   gem 'cucumber', "~> 1.3"
   gem 'cucumber-sinatra'
   gem 'rspec'
   gem 'rack-test'
-  gem 'guard'
-  gem 'guard-rspec', require: false
-  gem 'guard-jasmine'
+  gem 'guard', '>= 2.12.7'
+  gem 'guard-rspec', '>= 4.6.0', require: false
+  gem 'guard-jasmine', '>= 2.1.0'
   gem 'guard-cucumber'
   gem 'terminal-notifier-guard'
-  gem 'coveralls', require: false
+  gem 'coveralls', '>= 0.8.23', require: false
   gem 'cucumber-api-steps', require: false, github: 'theodi/cucumber-api-steps', branch: 'feature-test-content-type'
   gem 'database_cleaner'
   gem 'guard-shotgun', :git => 'https://github.com/rchampourlier/guard-shotgun.git'
   gem 'jasmine'
   gem 'timecop'
-  gem 'data_kitten'
+  gem 'data_kitten', '>= 1.3.2'
   gem 'webmock'
 end
